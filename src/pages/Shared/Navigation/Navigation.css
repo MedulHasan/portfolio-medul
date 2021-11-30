@@ -1,0 +1,23 @@
+.navigation {
+    padding: 2% 10%;
+    background-color: #1a3d5d;
+}
+.navigation a {
+    color: #fff !important  ;
+}
+.my-nav-item {
+    display: flex;
+    align-items: center;
+}
+.download-resume {
+    border: 1px solid #fff !important;
+    color: #fff !important;
+}
+.download-resume:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.toggle-button span {
+    color: #fff !important;
+    font-size: 30px;
+}

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
+.banner-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 17%;
+}
+.medul-hasan {
+    font-size: 58px;
+    font-weight: 700;
+}
+.developer {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+.text-anima {
+    color: rgb(226, 112, 112);
+}
+.medul-info {
+    font-size: 20px;
+    margin-top: 20px;
+    width: 600px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.banner-image {
+    width: 350px;
+    border-radius: 50%;
+}
+.medul-contact {
+    font-size: 30px;
+}
+.medul-contact a {
+    margin-right: 10px;
+    color: #08b0b0;
+}
+.medul-contact a:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    .banner-container {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 768px) {
+    .medul-hasan {
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .developer {
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+    }
+    .medul-info {
+        width: 450px;
+    }
+}

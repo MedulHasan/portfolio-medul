@@ -1,0 +1,40 @@
+.about-container {
+    background-color: #1a3d5d;
+    color: #fff;
+    padding: 5% 10%;
+    /* height: 100vh; */
+}
+.about-me {
+    display: flex;
+    align-items: center;
+}
+.about-text {
+    width: 70%;
+    margin: 75px 0;
+    margin-left: 150px;
+}
+
+@media screen and (max-width: 1200px) {
+    .about-container {
+        padding: 3% 5%;
+    }
+    .about-text {
+        margin-left: 150px;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .about-container {
+        padding: 3% 5%;
+    }
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-text {
+        margin-left: 0px;
+        margin-top: 50px;
+        width: 90%;
+    }
+}

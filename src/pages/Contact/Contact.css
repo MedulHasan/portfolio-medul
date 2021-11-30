@@ -1,0 +1,32 @@
+.contact-container {
+    background-color: #1a3d5d;
+    height: 100vh;
+    color: #fff;
+}
+.contact-form {
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+@media screen and (max-width: 1200px) {
+    .contact-form {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .contact-form {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .contact-form {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .contact-form {
+        width: 80%;
+    }
+}
