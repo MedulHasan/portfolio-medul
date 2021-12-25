@@ -4,6 +4,7 @@ import { HashLink } from "react-router-hash-link";
 import project1 from "../../../image/project/p1/2.JPG";
 import project2 from "../../../image/project/p2/1.JPG";
 import project3 from "../../../image/project/p3/1.JPG";
+import project4 from "../../../image/project/p6/1.JPG";
 import "./Project.css";
 
 const Projects = () => {
@@ -11,6 +12,33 @@ const Projects = () => {
         <div className='project-container'>
             <h2 className='some-of'>SOME OF</h2>
             <h2 className='my-project'>MY PROJECTS</h2>
+            <div className='project1'>
+                <img className='p1-image' src={project4} alt='' />
+                <div className='p1-details'>
+                    <h3>Ant's Nest</h3>
+                    <p>
+                        Ant's Nest is a online marketplace for rentals
+                        homestays, vacation and tourism. In this project user
+                        can seen our available house, hotel or apartment and
+                        user will be able to search for a home in a specific
+                        area. Use the map to find the house location. The login
+                        user will be able to see the full information of a house
+                        and multiple images have been used for viewing inside
+                        and outside the house.Users can reserve the house with
+                        their information and can also be booking the house by
+                        making the payment if they want.And if any user wants,
+                        he can do listing in his home.
+                    </p>
+                    <Link
+                        as={HashLink}
+                        to='/works#ants-nest'
+                        type='button'
+                        className='btn btn-outline-primary'
+                    >
+                        View Details
+                    </Link>
+                </div>
+            </div>
             <div className='project1'>
                 <img className='p1-image' src={project1} alt='' />
                 <div className='p1-details'>

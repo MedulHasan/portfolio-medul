@@ -20,6 +20,7 @@
 }
 .p1-image {
     width: 50%;
+    height: 400px;
 }
 .p1-details {
     margin-left: 50px;
@@ -35,6 +36,7 @@
 }
 .p2-image {
     width: 50%;
+    height: 400px;
 }
 .p2-details {
     text-align: left;

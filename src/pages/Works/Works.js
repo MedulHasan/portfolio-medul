@@ -18,6 +18,12 @@ import p43 from "../../image/project/p4/3.JPG";
 
 import p51 from "../../image/project/p5/1.JPG";
 
+import p61 from "../../image/project/p6/1.JPG";
+import p62 from "../../image/project/p6/2.JPG";
+import p63 from "../../image/project/p6/3.JPG";
+import p64 from "../../image/project/p6/4.JPG";
+import p65 from "../../image/project/p6/5.JPG";
+
 import { BsGlobe2 } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 
@@ -25,6 +31,176 @@ const Works = () => {
     return (
         <div className='works-container'>
             <h1 className='my-project-heading mb-4'>My Projects</h1>
+            <div className='project-all-info mb-5' id='ants-nest'>
+                <div className='carousel-cont'>
+                    <div
+                        id='carouselExampleIndicators'
+                        className='carousel slide'
+                        data-bs-ride='carousel'
+                    >
+                        <ol className='carousel-indicators'>
+                            <li
+                                data-bs-target='#carouselExampleIndicators'
+                                data-bs-slide-to='0'
+                                className='active'
+                            ></li>
+                            <li
+                                data-bs-target='#carouselExampleIndicators'
+                                data-bs-slide-to='1'
+                            ></li>
+                            <li
+                                data-bs-target='#carouselExampleIndicators'
+                                data-bs-slide-to='2'
+                            ></li>
+                            <li
+                                data-bs-target='#carouselExampleIndicators'
+                                data-bs-slide-to='3'
+                            ></li>
+                            <li
+                                data-bs-target='#carouselExampleIndicators'
+                                data-bs-slide-to='4'
+                            ></li>
+                        </ol>
+                        <div className='carousel-inner c-i'>
+                            <div className='carousel-item active'>
+                                <img
+                                    src={p61}
+                                    className='d-block w-100'
+                                    alt='...'
+                                />
+                            </div>
+                            <div className='carousel-item'>
+                                <img
+                                    src={p62}
+                                    className='d-block w-100'
+                                    alt='...'
+                                />
+                            </div>
+                            <div className='carousel-item'>
+                                <img
+                                    src={p63}
+                                    className='d-block w-100'
+                                    alt='...'
+                                />
+                            </div>
+                            <div className='carousel-item'>
+                                <img
+                                    src={p64}
+                                    className='d-block w-100'
+                                    alt='...'
+                                />
+                            </div>
+                            <div className='carousel-item'>
+                                <img
+                                    src={p65}
+                                    className='d-block w-100'
+                                    alt='...'
+                                />
+                            </div>
+                        </div>
+                        <button
+                            className='carousel-control-prev'
+                            type='button'
+                            data-bs-target='#carouselExampleIndicators'
+                            data-bs-slide='prev'
+                        >
+                            <p
+                                className='carousel-control-prev-icon'
+                                aria-hidden='true'
+                            ></p>
+                            <p className='visually-hidden'>Previous</p>
+                        </button>
+                        <button
+                            className='carousel-control-next'
+                            type='button'
+                            data-bs-target='#carouselExampleIndicators'
+                            data-bs-slide='next'
+                        >
+                            <p
+                                className='carousel-control-next-icon'
+                                aria-hidden='true'
+                            ></p>
+                            <p className='visually-hidden'>Next</p>
+                        </button>
+                    </div>
+                </div>
+                <div className='single-project-details'>
+                    <h1>Ant's Nest</h1>
+                    <ul>
+                        <li>
+                            Ant's Nest is a online marketplace for rentals
+                            homestays, vacation and tourism.
+                        </li>
+                        <li>
+                            Ant's Nest is a online marketplace for rentals
+                            homestays, vacation and tourism.
+                        </li>
+                        <li>Use the map to find the house location.</li>
+                        <li>
+                            The login user will be able to see the full
+                            information of a house and multiple images have been
+                            used for viewing inside and outside the house.
+                        </li>
+                        <li>
+                            Users can reserve the house with their information
+                            and can also be booking the house by making the
+                            payment if they want.
+                        </li>
+                        <li>
+                            Users can reserve the house with their information
+                            and can also be booking the house by making the
+                            payment if they want.
+                        </li>
+                    </ul>
+                    <div className='technology-all'>
+                        <h4>Technology</h4>
+                        <p className='tech'>JavaScript</p>
+                        <p className='tech'>React Js</p>
+                        <p className='tech'>Redux</p>
+                        <p className='tech'>Mapbox</p>
+                        <p className='tech'>Stripe</p>
+                        <p className='tech'>cloudinary</p>
+                        <p className='tech'>react-dropzone</p>
+                        <p className='tech'>React Router</p>
+                        <p className='tech'>Firebase-auto</p>
+                        <p className='tech'>Material Ui</p>
+                        <p className='tech'>Express js</p>
+                        <p className='tech'>Node Js</p>
+                        <p className='tech'>MongoDB</p>
+                        <p className='tech'>Html</p>
+                        <p className='tech'>Css</p>
+                    </div>
+                    <div className='website-info'>
+                        <a
+                            href='https://ant-s-nest.web.app/'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <span>
+                                <BsGlobe2 /> Website
+                            </span>
+                        </a>
+                        <a
+                            href='https://github.com/MedulHasan/ant-nest-client-side'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <span>
+                                <BsGithub /> Client GitHub
+                            </span>
+                        </a>
+                        <a
+                            href='https://github.com/MedulHasan/ants-nest-server-side'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <span>
+                                <BsGithub /> Server Github
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
             <div className='project-all-info mb-5' id='city-car-house'>
                 <div className='carousel-cont'>
                     <div
@@ -125,6 +301,7 @@ const Works = () => {
                         <p className='tech'>JavaScript</p>
                         <p className='tech'>React Js</p>
                         <p className='tech'>React Router</p>
+                        <p className='tech'>Firebase-auto</p>
                         <p className='tech'>Material Ui</p>
                         <p className='tech'>Express js</p>
                         <p className='tech'>Node Js</p>
